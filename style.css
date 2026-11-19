@@ -49,6 +49,7 @@ body {
     min-height: 64px;
     margin: 0 auto;
     padding: 8px 24px;
+    box-sizing: border-box;
 }
 
 #logo {
@@ -145,9 +146,11 @@ body {
 /** End of Header Part **/
 /** Page Content **/
 .container {
-    width: 80%;
+    width: calc(100% - 32px);
+    max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    box-sizing: border-box;
 }
 
 .page {
@@ -247,6 +250,7 @@ body {
 /** Members Table **/
 #members {
     width: 100%;
+    min-width: 720px;
     margin-top: 20px;
     table-layout: fixed;
     border-collapse: collapse;
@@ -256,6 +260,11 @@ body {
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 2px 8px rgba(0, 55, 85, 0.08);
+}
+
+.table-scroll {
+    width: 100%;
+    overflow-x: auto;
 }
 
 #members th,
@@ -403,12 +412,17 @@ body {
 /** End of Login Form **/
 
 .footer {
-    background-color: #0195da;
-    height: 70px;
     width: 100%;
+    max-width: none;
+    background-color: #0195da;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.footer p{
-color: #fff;
-margin-left: 40%;
-padding-top: 20px;
+
+.footer p {
+    margin: 0;
+    color: #fff;
+    text-align: center;
 }
