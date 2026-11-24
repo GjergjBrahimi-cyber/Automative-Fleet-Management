@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="74" viewBox="0 0 170 74" role="img" aria-labelledby="title description">
+  <title id="title">Automotive &amp; Fleet Management</title>
+  <desc id="description">Professionelles Logo mit Fahrzeug, Routenlinie und Flottenmanagement-Schriftzug</desc>
+  <defs>
+    <linearGradient id="afmBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#087da9"/>
+      <stop offset="1" stop-color="#38a8cf"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="8" width="58" height="58" rx="14" fill="#edf6fa"/>
+  <circle cx="19" cy="50" r="5" fill="#087da9"/>
+  <circle cx="41" cy="50" r="5" fill="#087da9"/>
+  <path d="M15 45l5-14c1-4 4-6 8-6h10c4 0 7 2 9 6l6 14" fill="none" stroke="url(#afmBlue)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M14 45h32" fill="none" stroke="#087da9" stroke-width="4" stroke-linecap="round"/>
+  <path d="M30 25v20M21 35h18" fill="none" stroke="#6ab6d1" stroke-width="2" opacity=".8"/>
+  <path d="M64 17h83" fill="none" stroke="#087da9" stroke-width="3" stroke-linecap="round"/>
+  <text x="64" y="42" fill="#087da9" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="900" letter-spacing=".5">AFM</text>
+  <text x="65" y="57" fill="#4b6270" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="700" letter-spacing=".65">FLEET MANAGEMENT</text>
+  <circle cx="153" cy="13" r="4" fill="#38a8cf"/>
+</svg>
