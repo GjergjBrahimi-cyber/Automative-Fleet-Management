@@ -1,149 +1,149 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Automotive &amp; Fleet Management</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Automotive &amp; Fleet Management</title>
 </head>
 <body>
-    <header class="site-header">
-        <nav class="navigation" aria-label="Hauptnavigation">
-            <a id="logo" href="index.html" aria-label="SMP – Startseite">
-                <img src="images/smp-logo.svg" alt="SMP Projektmanagement">
-            </a>
-            <div class="navigation-links">
-                <a class="active" href="index.html">Startseite</a>
-                <a href="aufgaben.html">Aufgaben</a>
-                <a href="mitglieder.html">Mitglieder</a>
-                <a href="projekte.html">Projekte</a>
-                <a class="register-link" href="registrieren.html">Registrieren</a>
-            </div>
-        </nav>
-        <section id="banner" aria-label="Projektmanagementsystem">
-            <img src="images/smp-banner.svg" alt="" aria-hidden="true">
-            <h1>Automotive &amp; Fleet Management</h1>
-        </section>
-    </header>
-    <main class="container page">
-        <article class="maininfo" lang="de">
-            <h2 class="title">SMP-Projekt – Beschreibung</h2>
-            <p>
-                Das Automotive & Fleet Management System ermöglicht Unternehmen die effiziente Steuerung und Koordination von Fahrzeug-Testflotten, Entwicklungs-Projekten und technischen Aufgaben. Es bietet integrierte Funktionen zur Personalverwaltung (Fahrzeugtechniker und Projektverantwortliche), zur Projekt- und Flottenverwaltung (Testphasen, Modellreihen) sowie zur transparenten Verwaltung und Zuweisungen aller anfallenden Aufgaben im Rahmen der Projekte.
-            </p>
+  <header class="site-header">
+    <nav class="navigation" aria-label="Hauptnavigation">
+      <a id="logo" href="index.html" aria-label="SMP – Startseite">
+        <img src="images/smp-logo.svg" alt="SMP Projektmanagement">
+      </a>
+      <div class="navigation-links">
+        <a class="active" href="index.html">Startseite</a>
+        <a href="aufgaben.html">Aufgaben</a>
+        <a href="mitglieder.html">Mitglieder</a>
+        <a href="projekte.html">Projekte</a>
+        <a class="register-link" href="registrieren.html">Registrieren</a>
+      </div>
+    </nav>
+    <section id="banner" aria-label="Projektmanagementsystem">
+      <img src="images/smp-banner.svg" alt="" aria-hidden="true">
+      <h1>Automotive &amp; Fleet Management</h1>
+    </section>
+  </header>
+  <main class="container page">
+    <article class="maininfo" lang="de">
+      <h2 class="title">SMP-Projekt – Beschreibung</h2>
+      <p>
+        Das Automotive & Fleet Management System ermöglicht Unternehmen die effiziente Steuerung und Koordination von Fahrzeug-Testflotten, Entwicklungs-Projekten und technischen Aufgaben. Es bietet integrierte Funktionen zur Personalverwaltung (Fahrzeugtechniker und Projektverantwortliche), zur Projekt- und Flottenverwaltung (Testphasen, Modellreihen) sowie zur transparenten Verwaltung und Zuweisungen aller anfallenden Aufgaben im Rahmen der Projekte.
+      </p>
+    </article>
+    <aside id="sidebar">
+      <form id="login" class="box" method="post">
+        <h3 class="title">Formular für die Anmeldung</h3>
+        <label for="email">E-Mail:</label>
+        <input type="email" name="email" id="email" autocomplete="username">
+        <label for="password">Passwort:</label>
+        <input type="password" id="password" name="password" autocomplete="current-password">
+        <input type="submit" name="login" value="Anmelden">
+      </form>
+      <section class="box">
+        <h3 class="title">Funktionen im Überblick</h3>
+        <ol>
+          <li>Flotten-& Fahrzeugverwaltung (Hinzufügen | Löschen | Bearbeiten)</li>
+          <li>Projekt-& Testphasenverwaltung (Hinzufügen | Löschen | Bearbeiten)</li>
+          <li>Aufgaben-& Wartungssteuerung (Hinzufügen | Löschen | Bearbeiten)</li>
+          <li>Techniker-& Teamverwaltung (Rollen & Zuweisungen)</li>
+          <li>Sichere Anmeldung und Abmeldung im System</li>
+        </ol>
+        <h3 class="title">Tech-Stack & Architektur</h3>
+        <ul>
+          <li><strong>Frontend:</strong> HTML, CSS, JavaScript & jQuery</li>
+          <li><strong>Backend:</strong> PHP (Objektorientiert / CRUD-Logik)</li>
+          <li><strong>Datenbank:</strong> MySQL (Relationale Datenstruktur)</li>
+          <li><strong>Fokus:</strong> Real-World Automotive & Fleet Management System</li>
+          <li><strong>Sicherheit:</strong> Session-Management & Datenvalidierung</li>
+        </ul>
+        <p><strong>Projekt-Code &amp; Dokumentation:</strong> <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub-Repository ansehen</a></p>
+      </section>
+    </aside>
+    <section id="content" class="box">
+      <section id="projects">
+        <h3 class="title">Aktuelle Flotten- & Entwicklungsprojekte</h3>
+        <article class="pitem">
+          <img src="images/testflotte.svg" alt="Illustration eines Testfahrzeugs für die Flottenkoordination" title="Testflotten-Koordination">
+          <h4 class="title">Testflotten-Koordination</h4>
+          <p>Verwaltung von Testfahrzeugen, Prüfintervallen und Statusmeldungen für laufende Erprobungsreihen.</p>
+          <a href="projekte.html">Mehr erfahren &rarr;</a>
         </article>
-        <aside id="sidebar">
-            <form id="login" class="box" method="post">
-                <h3 class="title">Formular für die Anmeldung</h3>
-                <label for="email">E-Mail:</label>
-                <input type="email" name="email" id="email" autocomplete="username">
-                <label for="password">Passwort:</label>
-                <input type="password" id="password" name="password" autocomplete="current-password">
-                <input type="submit" name="login" value="Anmelden">
-            </form>
-            <section class="box">
-                <h3 class="title">Funktionen im Überblick</h3>
-                <ol>
-                    <li>Flotten-& Fahrzeugverwaltung (Hinzufügen | Löschen | Bearbeiten)</li>
-                    <li>Projekt-& Testphasenverwaltung (Hinzufügen | Löschen | Bearbeiten)</li>
-                    <li>Aufgaben-& Wartungssteuerung (Hinzufügen | Löschen | Bearbeiten)</li>
-                    <li>Techniker-& Teamverwaltung (Rollen & Zuweisungen)</li>
-                    <li>Sichere Anmeldung und Abmeldung im System</li>
-                </ol>
-                <h3 class="title">Tech-Stack & Architektur</h3>
-                <ul>
-                    <li><strong>Frontend:</strong> HTML, CSS, JavaScript & jQuery</li>
-                    <li><strong>Backend:</strong> PHP (Objektorientiert / CRUD-Logik)</li>
-                    <li><strong>Datenbank:</strong> MySQL (Relationale Datenstruktur)</li>
-                    <li><strong>Fokus:</strong> Real-World Automotive & Fleet Management System</li>
-                    <li><strong>Sicherheit:</strong> Session-Management & Datenvalidierung</li>
-                </ul>
-                <p><strong>Projekt-Code &amp; Dokumentation:</strong> <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub-Repository ansehen</a></p>
-            </section>
-        </aside>
-        <section id="content" class="box">
-            <section id="projects">
-                <h3 class="title">Aktuelle Flotten- & Entwicklungsprojekte</h3>
-                <article class="pitem">
-                    <img src="images/testflotte.svg" alt="Illustration eines Testfahrzeugs für die Flottenkoordination" title="Testflotten-Koordination">
-                    <h4 class="title">Testflotten-Koordination</h4>
-                    <p>Verwaltung von Testfahrzeugen, Prüfintervallen und Statusmeldungen für laufende Erprobungsreihen.</p>
-                    <a href="projekte.html">Mehr erfahren &rarr;</a>
-                </article>
-                <article class="pitem">
-                    <img src="images/software-diagnose.svg" alt="Illustration eines Techniksystems für Software-Diagnose" title="Software-Rollout und Diagnose">
-                    <h4 class="title">Software-Rollout & Diagnose</h4>
-                    <p>Planung, Zuweisung und Nachverfolgung technischer Aufgaben rund um Steuergeräte-Updates und Fahrzeugdiagnose.</p>
-                    <a href="projekte.html">Mehr erfahren &rarr;</a>
-                </article>
-                <article class="pitem">
-                    <img src="images/wartungsplanung.svg" alt="Illustration einer digitalen Wartungs- und Einsatzplanung" title="Wartungs- und Einsatzplanung">
-                    <h4 class="title">Wartungs- & Einsatzplanung</h4>
-                    <p>Strukturierte Koordination von Werkstattterminen, Techniker-Einsätzen und Projektmeilensteinen.</p>
-                    <a href="projekte.html">Mehr erfahren &rarr;</a>
-                </article>
-            </section>
-            <div class="table-scroll" role="region" aria-label="Projektmitglieder" tabindex="0">
-                <table id="members">
-                    <thead>
-                        <tr>
-                            <th scope="col">Name</th>
-                            <th scope="col">Telefonnummer</th>
-                            <th scope="col">E-Mail</th>
-                            <th scope="col">Aufgaben</th>
-                            <th scope="col">Berufserfahrung</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="alt">
-                            <td>John Doe</td>
-                            <td>+49 123 456 789</td>
-                            <td>john.doe@fleet-smp.de</td>
-                            <td>Flottentechnik</td>
-                            <td>5 Jahre</td>
-                        </tr>
-                        <tr>
-                            <td>Jane Smith</td>
-                            <td>+49 987 654 321</td>
-                            <td>jane.smith@fleet-smp.de</td>
-                            <td>Fahrzeugdiagnose</td>
-                            <td>3 Jahre</td>
-                        </tr>
-                        <tr class="alt">
-                            <td>Max Mustermann</td>
-                            <td>+49 555 123 456</td>
-                            <td>max.mustermann@fleet-smp.de</td>
-                            <td>Testkoordination</td>
-                            <td>7 Jahre</td>
-                        </tr>
-                        <tr>
-                            <td>Erika Mustermann</td>
-                            <td>+49 555 654 321</td>
-                            <td>erika.mustermann@fleet-smp.de</td>
-                            <td>Projektleitung</td>
-                            <td>4 Jahre</td>
-                        </tr>
-                        <tr class="alt">
-                            <td>Hans Müller</td>
-                            <td>+49 555 987 654</td>
-                            <td>hans.mueller@fleet-smp.de</td>
-                            <td>Flottentechnik</td>
-                            <td>6 Jahre</td>
-                        </tr>
-                        <tr>
-                            <td>Anna Schmidt</td>
-                            <td>+49 555 321 987</td>
-                            <td>anna.schmidt@fleet-smp.de</td>
-                            <td>Wartungsplanung</td>
-                            <td>4 Jahre</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </section>
-    </main>
-    <footer class="footer container">
-        <p>© 2026 Automotive &amp; Fleet Management System | Entwickelt von <strong>Gjergj Brahimi</strong></p>
-    </footer>
+        <article class="pitem">
+          <img src="images/software-diagnose.svg" alt="Illustration eines Techniksystems für Software-Diagnose" title="Software-Rollout und Diagnose">
+          <h4 class="title">Software-Rollout & Diagnose</h4>
+          <p>Planung, Zuweisung und Nachverfolgung technischer Aufgaben rund um Steuergeräte-Updates und Fahrzeugdiagnose.</p>
+          <a href="projekte.html">Mehr erfahren &rarr;</a>
+        </article>
+        <article class="pitem">
+          <img src="images/wartungsplanung.svg" alt="Illustration einer digitalen Wartungs- und Einsatzplanung" title="Wartungs- und Einsatzplanung">
+          <h4 class="title">Wartungs- & Einsatzplanung</h4>
+          <p>Strukturierte Koordination von Werkstattterminen, Techniker-Einsätzen und Projektmeilensteinen.</p>
+          <a href="projekte.html">Mehr erfahren &rarr;</a>
+        </article>
+      </section>
+      <div class="table-scroll" role="region" aria-label="Projektmitglieder" tabindex="0">
+        <table id="members">
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Telefonnummer</th>
+              <th scope="col">E - Mail - Adresse</th>
+              <th scope="col">Aufgaben</th>
+              <th scope="col">Berufserfahrung</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="alt">
+              <td>John Doe</td>
+              <td>+49 123 456 789</td>
+              <td>john.doe@fleet-smp.de</td>
+              <td>Flottentechnik</td>
+              <td>5 Jahre</td>
+            </tr>
+            <tr>
+              <td>Jane Smith</td>
+              <td>+49 987 654 321</td>
+              <td>jane.smith@fleet-smp.de</td>
+              <td>Fahrzeugdiagnose</td>
+              <td>3 Jahre</td>
+            </tr>
+            <tr class="alt">
+              <td>Max Mustermann</td>
+              <td>+49 555 123 456</td>
+              <td>max.mustermann@fleet-smp.de</td>
+              <td>Testkoordination</td>
+              <td>7 Jahre</td>
+            </tr>
+            <tr>
+              <td>Erika Mustermann</td>
+              <td>+49 555 654 321</td>
+              <td>erika.mustermann@fleet-smp.de</td>
+              <td>Projektleitung</td>
+              <td>4 Jahre</td>
+            </tr>
+            <tr class="alt">
+              <td>Hans Müller</td>
+              <td>+49 555 987 654</td>
+              <td>hans.mueller@fleet-smp.de</td>
+              <td>Flottentechnik</td>
+              <td>6 Jahre</td>
+            </tr>
+            <tr>
+              <td>Anna Schmidt</td>
+              <td>+49 555 321 987</td>
+              <td>anna.schmidt@fleet-smp.de</td>
+              <td>Wartungsplanung</td>
+              <td>4 Jahre</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+  <footer class="footer container">
+    <p>© 2026 Automotive &amp; Fleet Management System | Entwickelt von <strong>Gjergj Brahimi</strong></p>
+  </footer>
 </body>
 </html>
