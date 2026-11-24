@@ -1,30 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
-  <rect width="800" height="450" fill="#eef3f7"/>
-  <g fill="none" stroke="#c4d6df" stroke-width="3">
+  <rect width="800" height="450" fill="#edf5f6"/>
+  <g fill="none" stroke="#c8dfe2" stroke-width="3">
     <circle cx="400" cy="225" r="170"/>
     <circle cx="400" cy="225" r="120"/>
   </g>
   <g transform="translate(170 95)">
-    <rect x="0" y="0" width="460" height="260" rx="24" fill="#263d49"/>
-    <rect x="25" y="25" width="410" height="210" rx="12" fill="#f8fbfc"/>
-    <rect x="50" y="55" width="120" height="150" rx="8" fill="#dcecf3"/>
-    <circle cx="110" cy="112" r="38" fill="#167da8"/>
+    <rect x="0" y="0" width="460" height="260" rx="24" fill="#123d50"/>
+    <rect x="25" y="25" width="410" height="210" rx="12" fill="#f7fbfb"/>
+    <rect x="50" y="55" width="120" height="150" rx="8" fill="#dcecef"/>
+    <circle cx="110" cy="112" r="38" fill="#0b6079"/>
     <path d="M110 89v46M87 112h46" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
-    <g fill="#167da8">
+    <g fill="#0b6079">
       <rect x="205" y="60" width="190" height="18" rx="9"/>
       <rect x="205" y="96" width="150" height="18" rx="9"/>
       <rect x="205" y="132" width="175" height="18" rx="9"/>
     </g>
-    <g fill="#81bace">
+    <g fill="#71c9d2">
       <rect x="205" y="168" width="96" height="18" rx="9"/>
       <rect x="315" y="168" width="80" height="18" rx="9"/>
     </g>
   </g>
   <g transform="translate(610 315)">
-    <circle cx="65" cy="65" r="65" fill="#167da8"/>
+    <circle cx="65" cy="65" r="65" fill="#0b6079"/>
     <path d="M65 28v74M28 65h74" stroke="#ffffff" stroke-width="14" stroke-linecap="round"/>
   </g>
-  <g fill="#167da8">
+  <g fill="#0b6079">
     <circle cx="145" cy="72" r="18"/>
     <circle cx="658" cy="92" r="12"/>
   </g>
