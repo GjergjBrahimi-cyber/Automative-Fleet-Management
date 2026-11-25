@@ -270,14 +270,31 @@ a:hover {
     margin: 10px auto;
 }
 
-.pitem a {
+.pitem .project-link {
+    display: grid;
+    place-items: center;
     align-self: flex-end;
-    margin: auto 10px 0;
-    color: var(--color-primary);
+    width: 70px;
+    height: 70px;
+    margin: auto 10px 0 0;
+    background-color: #ffea00;
+    color: #17212b;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 1;
+    text-decoration: none;
+    transition: background-color 0.2s ease, transform 0.2s ease;
 }
-.pitem a:hover {
-    text-decoration: overline;
 
+.pitem .project-link:hover {
+    background-color: #f2d900;
+    color: #17212b;
+    transform: rotate(90deg);
+}
+
+.pitem .project-link:focus-visible {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 3px;
 }
 /** Members Table **/
 #members {
