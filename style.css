@@ -274,21 +274,21 @@ a:hover {
     display: grid;
     place-items: center;
     align-self: flex-end;
-    width: 70px;
-    height: 70px;
+    width: 56px;
+    height: 56px;
     margin: auto 10px 0 0;
-    background-color: #ffea00;
-    color: #17212b;
-    font-size: 36px;
+    background-color: var(--color-primary);
+    color: #ffffff;
+    font-size: 30px;
     font-weight: 300;
     line-height: 1;
     text-decoration: none;
-    transition: background-color 0.2s ease, transform 0.2s ease;
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
 }
 
 .pitem .project-link:hover {
-    background-color: #f2d900;
-    color: #17212b;
+    background-color: var(--color-primary-hover);
+    color: #ffffff;
     transform: rotate(90deg);
 }
 
